@@ -17,7 +17,6 @@ public class ArrayDeque<T> implements DequeInterface<T> {
         // Throws QueueOverflowException if this queue is full;
         // otherwise, adds element to the front of this queue.
         if(isFull()) throw new QueueOverflowException ("Deque is full.");
-        //else if (isEmpty()) elements[front] = element;
         else{
             front = (front - 1 + elements.length)  % elements.length;
             elements[front] = element;
