@@ -16,6 +16,7 @@ public class Sentence implements Iterable<String> {
     
     @Override
     public Iterator<String> iterator(){
+        // Returns Iterator over this list.
         return new Iterator<String>(){
             String[] stringArr = sentenceString.split(" ");
             int count = 0;      //counter to track position in stringArr
