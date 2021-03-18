@@ -1,11 +1,11 @@
 //Justin Bashara
 //CTEC 243
 //9/14/2020
-package paindromedetectorjustinbashara;
+package palindromedetectorjustinbashara;
 
 import java.util.*;
 
-public class PaindromeDetectorJustinBashara {
+public class PalindromeDetectorJustinBashara {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
