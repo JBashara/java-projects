@@ -1,3 +1,4 @@
+// Class uses the Comparable interface and overrides the compareTo method.
 package comicbooksjustinbashara;
 
 public class ComicBook implements Comparable<ComicBook> {
@@ -12,6 +13,7 @@ public class ComicBook implements Comparable<ComicBook> {
     
     @Override
     public int compareTo(ComicBook comic){
+        // Method returns -1 or 1 if current object is less than or greater than passed in object.
         if (this.score > comic.score){
             return 1;
         }
